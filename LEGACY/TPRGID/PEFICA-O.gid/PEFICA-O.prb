@@ -1,0 +1,10 @@
+PROBLEM DATA
+TITLE: General
+QUESTION: Tipo_problema_(TIPR):#CB#(plano_esfuerzos,plano_deformaciones) 
+VALUE:  plano_esfuerzos
+TITLE: Postproceso
+QUESTION: Presentacion_esfuerzos_(ENNU):#CB#(en_puntos_gauss,en_nudos,en_centro) 
+VALUE:  en_puntos_gauss
+QUESTION: Impresion_resultados_(IMPR):#CB#(en_ventana_y_gid,en_gid,en_ventana,ninguno) 
+VALUE:  en_gid
+END GENERAL DATA
