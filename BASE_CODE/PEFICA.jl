@@ -100,6 +100,21 @@ if archivo_procesamiento != ""
         println(secciones["PhysicalNames"][i])
     end
     println(length(secciones["PhysicalNames"]))
+
+    # Crear un array vacío para almacenar los arrays resultantes
+    arrays_dinamicos = []
+    array_inicial = secciones["PhysicalNames"]
+    # Iterar sobre cada elemento del array inicial
+    for elemento in array_inicial
+        # Dividir el string en un array según los espacios
+        array_dividido = split(elemento)
+        
+        # Agregar el array dividido a arrays_dinamicos
+        push!(arrays_dinamicos, array_dividido)
+    end
+
+    # Imprimir el resultado
+    println(arrays_dinamicos)
 end
 
 while true
