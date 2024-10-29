@@ -1,0 +1,10 @@
+NUMBER: 1 MATERIAL: Steel
+QUESTION: Modulo_Young_(EYOU)
+VALUE: 1.96E+11
+QUESTION: Relacion_Poisson_(POIS)
+VALUE: 0.33
+QUESTION: Peso_especifico_(GAMM)
+VALUE: 0
+QUESTION: Espesor_(TESP)
+VALUE: 1.0
+END MATERIAL
